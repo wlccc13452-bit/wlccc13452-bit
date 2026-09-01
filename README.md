@@ -2,7 +2,7 @@
 
 # wlccc13452-bit
 
-**Computational Design · Quant Trading · LLM Engineering**
+**Earthquake Research · Structural Design · Architecture · BIM · Quant · LLM**
 
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](#)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](#)
@@ -17,17 +17,51 @@
 
 ---
 
-## 关于我 / About
+## About
 
-一名专注跨领域工程自动化的开发者，长期在三个方向深耕：
+A cross-disciplinary engineer working at the intersection of structural engineering, computational design, and applied AI, focused on:
 
-- **BIM 与计算设计** — 打通 Rhino/Grasshopper → ETABS → Revit 的结构设计管线，基于 IFC/FEM 做参数化建模与结构分析。
-- **AI 量化交易** — 以 AI Agent 驱动 A 股量化研究、策略开发与交易实践。
-- **大语言模型** — 学习、训练与微调 GPT 类模型，探索 LLM 在工程与金融场景的落地。
+- **Earthquake Research** — seismic analysis and structural response.
+- **Structural Design & Architecture** — analysis-driven design workflows.
+- **BIM & Computational Design** — a Rhino/Grasshopper → ETABS → Revit structural pipeline built on IFC/FEM for parametric modeling and structural analysis.
+- **Quantitative Trading** — AI-agent-driven A-share quant research, strategy development, and trading practice.
+- **LLM** — training and fine-tuning GPT-class models, exploring their application in engineering and finance.
 
+---
 
+## Featured Projects
 
-## GitHub 统计 / Stats
+### [vinchi-hub](https://github.com/wlccc13452-bit/vinchi-hub)
+
+A unified BIM integration platform bridging Rhino/Grasshopper, ETABS, and Revit through an intermediate format and orchestration layer, delivering a complete structural design workflow: parametric geometry generation → structural analysis → AI-assisted correction → BIM delivery.
+
+| Subproject | Role |
+|---|---|
+| `aether_switch` | Rhino/Grasshopper geometry generation and ETABS bridge |
+| `vinchi-flow` | Visual node-based workflow orchestration and ETABS analysis (MCP tools) |
+| `vinchi-morph` | ReAct-based structural correction and model checking |
+| `sync-hub` | Multi-device coordination and message relay center |
+
+### [ifc_projects](https://github.com/wlccc13452-bit/ifc_projects)
+
+IFC/BIM engineering practice for structural analysis and design, centered on **adapy (ADA - Assembly for Design & Analysis)**: reading, writing, and modifying FE models and post-processing results, with support for STEP/IFC CAD/BIM formats and CSG boolean operations, providing the building blocks for parametric 3D design and simulation workflows.
+
+### [ai-stock-quant](https://github.com/wlccc13452-bit/ai-stock-quant)
+
+An AI-agent-driven A-share quantitative trading workspace:
+
+- `stock-peg` — intelligent stock analysis platform (FastAPI + React + Feishu bot)
+- `trading-practices` — trading automation (Wenhua/TongdaXin)
+- `miniqumt-server` — full-stack MiniQMT simulated trading environment
+- `knowledge-brain` — market research and AI learning knowledge base
+
+### [LLM_Projects](https://github.com/wlccc13452-bit/LLM_Projects)
+
+LLM learning and experimentation, including nanoGPT — a minimal implementation for training and fine-tuning medium-sized GPT models, used to understand and reproduce GPT-class models.
+
+---
+
+## GitHub Stats
 
 <div align="center">
 
@@ -39,6 +73,6 @@
 
 ---
 
-## 联系方式 / Contact
+## Contact
 
 - GitHub: [@wlccc13452-bit](https://github.com/wlccc13452-bit)
