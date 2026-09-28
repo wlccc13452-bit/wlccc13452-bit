@@ -26,7 +26,7 @@ Cross-disciplinary engineer at the intersection of structural engineering, compu
 
 ### Structural · BIM · Engineering
 
-#### [building-x](https://github.com/wlccc13452-bit/building-x) (EPAD)
+#### [building-x-releases](https://github.com/wlccc13452-bit/building-x-releases)
 
 Structural engineering desktop app for ETABS/YJK/PKPM post-processing — FEM visualization, IFC/GLTF export, embedded IFClite VIEW, and AI-assisted structural report authorship.
 
